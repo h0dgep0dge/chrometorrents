@@ -1,0 +1,17 @@
+{
+	"name": "Chrome Torrent Adder",
+	"description": "Adds a magnet torrent a torrent client's watch folder",
+	"version": "0.1",
+	"permissions": [
+		"contextMenus"
+	],
+	
+	"icons": {
+		"16": "icon-magnet.png"
+	},
+
+	"background": {
+		"scripts": ["download.js"]
+	},
+	"manifest_version": 2
+}
